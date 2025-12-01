@@ -46,5 +46,4 @@ uv run --with jupyter jupyter notebook
 
 ## Recursos adicionales
 
-* [Instalación de miniconda y jupyter notebook.](https://www.youtube.com/watch?v=YBFwFMxKyyc)
 * [Algorithms - The Secret Rules of Modern Living - BBC documentary](https://www.youtube.com/watch?v=k2AqGongii0)
