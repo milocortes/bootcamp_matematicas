@@ -1,0 +1,6 @@
+[book]
+authors = ["Hermilo Cortes"]
+language = "en"
+multilingual = false
+src = "src"
+title = "Bootcamp de Matemáticas"

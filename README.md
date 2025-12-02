@@ -20,13 +20,14 @@ Para descargar el repositorio utiliza la instrucción:
 git clone https://github.com/milocortes/bootcamp_matematicas.git
 ```
 
-## Creación del ambiente virtual con uv
+## Sincronización del ambiente virtual
 
-Crearemos un ambiente virtual con la instrucción:
+Sincronizamos las dependencias en nuestro ambiente virtual con la instrucción:
 
 ```bash 
-uv init --python 3.11
+uv sync
 ```
+>Sincronizar (Syncing) es el proceso de instalar las versiones correctas de las dependencias de un lockfile en el ambiente del proyecto.
 
 #### Inicio del servicio de Marimo
 

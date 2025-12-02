@@ -5,9 +5,15 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
+    "algo-optim-mod04",
     "jax>=0.8.1",
     "marimo>=0.18.1",
     "matplotlib>=3.10.7",
+    "numdifftools>=0.9.41",
     "numpy>=2.3.5",
+    "scikit-learn>=1.7.2",
     "sympy>=1.14.0",
 ]
+
+[tool.uv.sources]
+algo-optim-mod04 = { git = "https://github.com/milocortes/algo_optim_mod04.git", rev = "main" }

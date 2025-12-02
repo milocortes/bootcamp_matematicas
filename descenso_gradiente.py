@@ -14,8 +14,9 @@ def _():
 def _():
     import matplotlib.pyplot as plt
     import numpy as np
-    import jax
-    return jax, np, plt
+    import numdifftools as nd
+
+    return nd, np, plt
 
 
 @app.cell(hide_code=True)
@@ -155,12 +156,13 @@ def _(mo):
 
 
 @app.cell
-def _(f, jax):
-    # Obtenemos la primer derivada de la función con diferenciación automática con JAX
-    df_jax = jax.grad(f)
+def _(f, nd):
+    # Obtenemos la primer derivada de la función con diferenciación automática con import numdifftools
+    def df_ad(x):
+        return nd.Gradient(f)(x)
 
     # Evaluamos la derivada para x=1
-    df_jax(1.0)
+    df_ad(1.0)
     return
 
 
@@ -301,7 +303,7 @@ def _(actualiza_superficie, mo, np, plt):
         plt.plot([xold2d,x2d],[yold2d,y2d], marker='o', linestyle='dotted', color='red')
         xold2d = x2d
         yold2d = y2d
-    
+
         # Utilizamos la regla de actualización
         X_vec = X_vec - rho2d*gradiente(X_vec)
         x2d, y2d = X_vec
