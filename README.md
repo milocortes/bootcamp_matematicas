@@ -1,7 +1,7 @@
 # Bootcamp de Matemáticas para la Maestría en Ciencia de Datos y Políticas Públicas
 
 ## Contenido
-* [Introducción a optimización](.slides/intro_optimizacion.pdf).
+* [Introducción a optimización](slides/intro_optimizacion.pdf).
     - Maximización o minimización.
     - Formulación matemática.
     - Restricciones y regiones factibles.
