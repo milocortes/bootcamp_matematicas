@@ -1,16 +1,17 @@
 # Bootcamp de Matemáticas para la Maestría en Ciencia de Datos y Políticas Públicas
 
 ## Contenido
-* Introducción a optimización.
+* [Introducción a optimización](.slides/intro_optimizacion.pdf).
     - Maximización o minimización.
     - Formulación matemática.
     - Restricciones y regiones factibles.
     - Soluciones locales y globales.
-* Algoritmo de Descenso de Gradiente.
+* [Algoritmo de Descenso de Gradiente](https://milocortes.github.io/bootcamp_matematicas/laboratorios/descenso_gradiente/index.html).
     - Derivadas.
     - Derivadas en múltiples dimensiones.
     - Gradientes.
     - Implementación del algoritmo de Descenso de Gradiente.
+* [Aplicación Algoritmos de Optimización de Primer Orden](https://milocortes.github.io/bootcamp_matematicas/laboratorios/aplicaciones_primer_orden/index.html)
 
 ## Descarga del repositorio
 
